@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import "./Services.css";
-import {BsCheck} from "react-icons/bs"
+import { BsCheck } from "react-icons/bs";
 
 const Services = () => {
   return (
@@ -13,28 +13,27 @@ const Services = () => {
           <div className="service__head">
             <h3>UI/UX Design</h3>
           </div>
-          <ul className='service__list'>
+          <ul className="service__list">
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
-            
           </ul>
         </article>
 
@@ -42,32 +41,31 @@ const Services = () => {
           <div className="service__head">
             <h3>Web Development</h3>
           </div>
-          <ul className='service__list'>
+          <ul className="service__list">
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
-            
           </ul>
         </article>
 
@@ -75,33 +73,32 @@ const Services = () => {
           <div className="service__head">
             <h3>Content Creation</h3>
           </div>
-          <ul className='service__list'>
+          <ul className="service__list">
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck className='service__list-icon'/>
+              <BsCheck size={42} className="service__list-icon" />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
-            
           </ul>
         </article>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

@@ -12,6 +12,9 @@
    border: .4rem solid var(--color-primary-variant);
 }
 
+h5.client__name{
+    color: var(--color-white)
+}
 .testimonial{
     background: var(--color-bg-variant);
     text-align: center;
@@ -21,7 +24,7 @@
 }
 
 .client__review{
-    color: var(--color-light);
+    color: var(--color-primary);
     font-weight: 300;
     display: block;
     width: 80%;
