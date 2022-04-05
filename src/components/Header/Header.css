@@ -33,12 +33,16 @@ h5, h1{
     position: absolute;
     right: 0;
     bottom: 9rem;
-    background-color: var(--color-light);
+   
     padding: .7rem;
     border-radius: 20px;
     max-height: 200px;
-    box-shadow: -18px -18px 30px #FFFFFF, 18px 18px 30px #D1D9E6;
+    box-shadow: -18px -18px 30px #FFFFFF, 18px 18px 30px #D1D9E6, inset -18px -18px 30px #FFFFFF, inset 18px 18px 30px #D1D9E6;
    
+}
+.header__socials a:hover{
+    color: var(--color-light);
+    
 }
 
 

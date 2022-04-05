@@ -64,7 +64,7 @@ form{
 }
 
 input, textarea {
-    box-shadow: -18px -18px 30px #FFFFFF, 18px 18px 30px #D1D9E6;
+    box-shadow: -18px -18px 30px #FFFFFF, 18px 18px 30px #D1D9E6, inset -18px -18px 30px #FFFFFF, inset 18px 18px 30px #D1D9E6;
     width: 100%;
     padding: 1.5rem;
     border-radius: .5rem;
