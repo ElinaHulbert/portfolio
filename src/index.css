@@ -1,6 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'Noctis';
+    src: url('./assets/fonts/Noctis-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noctis';
+    src: url('./assets/fonts/Noctis-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noctis';
+    src: url('./assets/fonts/Noctis-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +56,7 @@ html{
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
@@ -58,6 +77,18 @@ h1, h2, h3, h4, h5{
 h1{
     font-size: 2.5rem;
 }
+h2{
+    font-family: 'Noctis';
+    font-weight: bold; 
+    
+}
+
+    
+h5{
+    font-family: "Lato";
+    color: var(--color-primary);
+    
+}
 
 section{
     margin-top: 8rem;
@@ -65,12 +96,17 @@ section{
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    /* color: var(--color-light); */
+    
 }
 
 section > h2 {
-    color: var(--color-primary);
+    color: var(--color-light);
     margin-bottom: 3rem;
+}
+
+section > h5{
+    text-transform: uppercase;
 }
 
 .text-light{
@@ -106,6 +142,7 @@ a:hover{
 .btn-primary{
     background: var(--color-primary);
     box-shadow: inset -20px -20px 50px var(--color-primary), inset 20px 20px 50px #c2d5d5;
+    /* box-shadow: -18px -18px 50px var(--color-primary), 18px 18px 50px #c2d5d5, inset -18px -18px 50px var(--color-primary), inset 18px 18px 50px #c2d5d5; */
     color: var(--color-light);
 }
 

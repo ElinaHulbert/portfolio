@@ -50,7 +50,7 @@
 }
 
 input::placeholder, textarea{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Lato";
     color: var(--color-primary-variant)
 }
 
