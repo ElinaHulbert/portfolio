@@ -55,7 +55,7 @@ html{
     display: none;
 }
 
-body{
+body, html{
     font-family: 'Roboto', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
