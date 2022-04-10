@@ -4,6 +4,8 @@ footer{
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
+    border-radius: 20px 20px 0 0;
+    box-shadow: -18px -18px 30px #FFFFFF, 18px 18px 30px #D1D9E6, inset -18px -18px 30px #99b8b7, inset 18px 18px 50px #c2d5d5;
 }
 
 footer a{

@@ -10,6 +10,7 @@
     flex-direction: column;
     gap: 1.2rem;
     justify-content: space-between;
+    
 }
 
 
@@ -21,6 +22,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
     min-width: 250px;
+    box-shadow:  inset -18px -18px 30px #3b535fd2, inset 18px 18px 30px #20343dd2;
 }
 
 .contact__option:hover{

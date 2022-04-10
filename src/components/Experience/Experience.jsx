@@ -1,6 +1,6 @@
 import React from "react";
 import "./Experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import { GoPrimitiveDot } from "react-icons/go";
 
 const Experience = () => {
   return (
@@ -13,10 +13,7 @@ const Experience = () => {
           <div className="experience__content">
             {/* #1 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Vanilla JavaScript</h4>
                 <small className="text-light">
@@ -26,21 +23,17 @@ const Experience = () => {
             </article>
             {/* #2 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>MongoDB, Node.js & Express</h4>
-                <small className="text-light">MERN briefs</small>
+                <small className="text-light">
+                  MERN briefs, creating an API
+                </small>
               </div>
             </article>
             {/* #3 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>React.js</h4>
                 <small className="text-light">
@@ -50,10 +43,7 @@ const Experience = () => {
             </article>
             {/* #4 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Firebase</h4>
                 <small className="text-light">
@@ -63,10 +53,7 @@ const Experience = () => {
             </article>
             {/* #5 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
                 <small className="text-light">
@@ -76,10 +63,7 @@ const Experience = () => {
             </article>
             {/* #6 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Phaser</h4>
                 <small className="text-light">Seabattle game</small>
@@ -87,10 +71,7 @@ const Experience = () => {
             </article>
             {/* #8 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Responsive Web Design & Accessibility</h4>
                 <small className="text-light">Experienced</small>
@@ -98,10 +79,7 @@ const Experience = () => {
             </article>
             {/* #9 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Git, GitHub</h4>
               </div>
@@ -113,243 +91,182 @@ const Experience = () => {
           <div className="experience__content">
             {/* #1 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Typography Composition</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">
+                  A personal project as a part of bachelors
+                </small>
               </div>
             </article>
             {/* #2 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Design for the User</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">
+                  A client project as a part of module at Hyper Island
+                </small>
               </div>
             </article>
             {/* #3 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Coloristics</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">
+                  As a part of an interior design module
+                </small>
               </div>
             </article>
             {/* #4 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Illustration </h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Illustration for kids</small>
               </div>
             </article>
             {/* #5 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Digital Art</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Both vector and scalar</small>
               </div>
             </article>
             {/* #6 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>3D Modelling</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">
+                  General object building and UV-mapping
+                </small>
               </div>
             </article>
             {/* #7 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Painting</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Watercolors, gouache, oils</small>
               </div>
             </article>
             {/* #8 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Architectural Drawing</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">
+                  Application Task for bachelors
+                </small>
               </div>
             </article>
           </div>
         </div>
-        <div className="experience__frontend">
+      </div>
+
+      <div className="container__second__experience">
+        <div className="experience__first">
           <h3>Software</h3>
           <div className="experience__content">
             {/* #1 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Figma</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             {/* #2 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Adobe Illustrator</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             {/* #3 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Adobe Photoshop</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             {/* #4 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Adobe Indesign</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             {/* #5 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Trello</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             {/* #6 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Miro</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             {/* #7 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Autodesk Maya</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>
         </div>
-        <div className="experience__frontend">
+
+        <div className="experience__second">
           <h3>Soft Skills</h3>
+
           <div className="experience__content">
             {/* #1 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Fast Learner</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             {/* #2 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Ability To Work In a Team</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             {/* #3 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Patience</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             {/* #4 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Accuracy</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             {/* #5 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Social Skills</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             {/* #6 */}
             <article className="experience__details">
-              <BsPatchCheckFill
-                size={13}
-                className="experience__details-icon"
-              />
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Flexibility & Adaptibility</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>

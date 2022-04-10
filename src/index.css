@@ -65,7 +65,7 @@ body, html{
 }
 
 /* General Styles */
-.container{
+.container, .container__second__experience{
     width: var(--container-width-lg);
     margin: 0 auto;
 }
@@ -160,7 +160,7 @@ img{
 /* Media Queries (Medium devices) */
 
 @media screen and (max-width: 1024px){
-    .container {
+    .container, .container__second__experience {
         width: var(--container-width-md);
     }
 
@@ -172,7 +172,7 @@ img{
 /* Media Queries (Small devices) */
 
 @media screen and (max-width: 600px){
-    .container {
+    .container, .container__second__experience {
         width: var(--container-width-sm);
     }
 
@@ -180,3 +180,4 @@ img{
         margin-bottom: 2rem;
     }
 }
+

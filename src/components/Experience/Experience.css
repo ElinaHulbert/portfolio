@@ -6,6 +6,23 @@
     justify-content: space-around;
 }
 
+.container__second__experience{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.container__second__experience>div{
+    background: var(--color-bg-variant);
+    padding: 2.4rem 3rem;
+    margin-bottom: 2.4rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    width: 45%;
+}
+
+
 .experience__container>div{
     background: var(--color-bg-variant);
     padding: 2.4rem 3rem;
@@ -13,20 +30,24 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    
+    margin-left: 0;
 }
 
-.experience__container>div:hover{
+.experience__container>div:hover, .container__second__experience>div:hover{
     background: var(--color-primary-variant);
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
-.experience__container>div h3{
+.experience__container>div h3, .container__second__experience>div h3{
     text-align: center;
     margin-bottom: 2rem;
     
     color: var(--color-primary)
+}
+
+.experience__frontend, .experience__first, .experience__second{
+    box-shadow:  inset -18px -18px 30px #3b535fd2, inset 18px 18px 30px #20343dd2;
 }
 
 .experience__content{
@@ -49,12 +70,12 @@
 
 /* Media Queries (Medium devices)*/
 @media screen and (max-width: 1024px){
-    .experience__container{
+    .experience__container, .container__second__experience{
         grid-template-columns: 1fr;
     }
 
-    .experience__container>div{
-        width: 80%;
+    .experience__container>div, .container__second__experience>div{
+        
         padding: 2rem;
         margin-bottom: 2.4rem;
     }
@@ -64,6 +85,12 @@
     }
     .experience__details{
         width:390px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .container__second__experience{
+        justify-content: space-around;
     }
 }
 
@@ -81,16 +108,27 @@
         
         gap: .9rem;
     }
+   
 }
 
 /* Media Queries (Small devices)*/
 @media screen and (max-width: 470px){
+    .container__second__experience{
+        width: auto;
+    }
+
+    .container__second__experience>div{
+        
+        width: 100%;
+    }
     
     .experience__details{
         display: initial;
-       width: 370px;
-       gap: 0.8rem;
+        width: 370px;
+        gap: 0.8rem;
     }
+
+    
 }
 
 
