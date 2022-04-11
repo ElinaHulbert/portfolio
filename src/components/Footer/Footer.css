@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Noctis';
+    src: url('../../assets/fonts/Noctis-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 footer{
     background: var(--color-primary);
     padding: 3rem 0;
@@ -13,10 +21,11 @@ footer a{
 }
 
 .footer__logo{
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 3rem;
+    font-weight: 900;
     margin-bottom: 2rem;
     display: inline-block;
+    font-family: "Noctis";
 }
 
 .permalinks{

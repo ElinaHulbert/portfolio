@@ -34,8 +34,8 @@
 }
 
 .experience__container>div:hover, .container__second__experience>div:hover{
-    background: var(--color-primary-variant);
-    border-color: var(--color-primary-variant);
+    background: #263a44;
+    border-color: #263a44;
     cursor: default;
 }
 

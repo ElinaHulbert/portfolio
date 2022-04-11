@@ -7,6 +7,12 @@
 
 .swiper-slide{
     box-shadow:  inset -18px -18px 30px #3b535fd2, inset 18px 18px 30px #20343dd2;
+
+}
+
+.swiper-slide:hover{
+    background: #263a44;
+    border-color: #263a44;
 }
 
 .client__avatar{

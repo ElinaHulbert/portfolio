@@ -1,6 +1,6 @@
 import React from "react";
-import "./Header.css";
 import "./Header.scss";
+import "./Header.css";
 
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
@@ -12,21 +12,25 @@ const Header = () => {
         <div className="container header__container">
           <div className="art">
             <div className="box">
-            <h5 className="greeting">Hi! I'm </h5>
-            <div className="title">
-              <span className="block"></span>
-              <h1>Elina Hulb<span className="e">e</span>rt<span className="dot"></span></h1>
-            </div>
-            <div className="role">
-              <div className="block"></div>
-              <p className="role-p">Frontend Developer & Artist <br></br>Based In Stockholm</p>
+              <h5 className="greeting">Hi! I'm </h5>
+              <div className="title">
+                <span className="block"></span>
+                <h1 className="animation_header">
+                  Elina Hulb<span className="e">e</span>rt
+                  <span className="dot"></span>
+                </h1>
+              </div>
+              <div className="role">
+                <div className="block"></div>
+                <p className="role-p">
+                  Frontend Developer & Artist <br></br>Based In Stockholm
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-       
-        <CTA />
-        <HeaderSocials />
-          
+
+          <CTA />
+          <HeaderSocials />
         </div>
       </header>
     </>

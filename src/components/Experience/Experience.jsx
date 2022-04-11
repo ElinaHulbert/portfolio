@@ -69,12 +69,20 @@ const Experience = () => {
                 <small className="text-light">Seabattle game</small>
               </div>
             </article>
-            {/* #8 */}
+            {/* #7 */}
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Responsive Web Design & Accessibility</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Lighthouse</small>
+              </div>
+            </article>
+            {/* #8 */}
+            <article className="experience__details">
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
+              <div>
+                <h4>Agile Methodology</h4>
+                <small className="text-light">Scrum & Kanban</small>
               </div>
             </article>
             {/* #9 */}
@@ -82,6 +90,13 @@ const Experience = () => {
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
                 <h4>Git, GitHub</h4>
+              </div>
+            </article>
+            {/* #10 */}
+            <article className="experience__details">
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
+              <div>
+                <h4>Pair-Programming & Mob-Programming</h4>
               </div>
             </article>
           </div>
@@ -182,38 +197,45 @@ const Experience = () => {
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
-                <h4>Adobe Illustrator</h4>
+                <h4>Visual Studio Code</h4>
               </div>
             </article>
             {/* #3 */}
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
-                <h4>Adobe Photoshop</h4>
+                <h4>Adobe Illustrator</h4>
               </div>
             </article>
             {/* #4 */}
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
-                <h4>Adobe Indesign</h4>
+                <h4>Adobe Photoshop</h4>
               </div>
             </article>
             {/* #5 */}
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
-                <h4>Trello</h4>
+                <h4>Adobe Indesign</h4>
               </div>
             </article>
             {/* #6 */}
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
-                <h4>Miro</h4>
+                <h4>Trello</h4>
               </div>
             </article>
             {/* #7 */}
+            <article className="experience__details">
+              <GoPrimitiveDot size={13} className="experience__details-icon" />
+              <div>
+                <h4>Miro</h4>
+              </div>
+            </article>
+            {/* 8 */}
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>

@@ -59,10 +59,13 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nihil
-            autem fugit repellat assumenda amet maxime quisquam molestiae,
-            laboriosam quos nesciunt est tempora asperiores aliquam! Laboriosam
-            quod quis cupiditate natus.
+            Hello! I am a curious frontend developer originally from Azerbaijan.
+            Now I study at Hyper Island and enjoy my student life. During my
+            education at Hyper Island I got an opportunity to mentor other
+            students and volunteered at Open Day, Application Task Test-drive
+            and Application Task Review. Before coding, I have been doing art
+            and illustration and were highly interested in learning different
+            languages.
           </p>
         </div>
       </div>

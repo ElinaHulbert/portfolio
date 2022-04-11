@@ -54,6 +54,7 @@
       position: relative;
       display: flex;
       align-items: center;
+      justify-content: center;
       height: 50px;
      
       
@@ -73,8 +74,8 @@
         font-family: "Noctis";
         font-weight: 900;
         color: var(--color-black);
-        font-size: 80px;
-        line-height: .8;
+        font-size: 2.5rem;
+        line-height: .8rem;
         
         -webkit-animation: mainFadeIn 2s forwards;
         -o-animation: mainFadeIn 2s forwards;
@@ -263,3 +264,51 @@
   }
 }
 
+@media screen and (max-width: 768px){
+  .art{
+    .box{
+      .title{
+        .animation_header{
+          font-size: 5rem;
+      }
+      }
+    }
+  }
+} 
+
+
+@media screen and (max-width: 650px){
+  .art{
+    .box{
+      .title{
+        .animation_header{
+          font-size: 4.5rem;
+      }
+      }
+    }
+  }
+} 
+
+@media screen and (max-width: 550px){
+  .art{
+    .box{
+      .title{
+        .animation_header{
+          font-size: 3.5rem;
+      }
+      }
+    }
+  }
+} 
+
+@media screen and (max-width: 425px){
+  .art{
+    .box{
+      .title{
+        .animation_header{
+          font-size: 2.5rem;
+      }
+      }
+    }
+  }
+} 
