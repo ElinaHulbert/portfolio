@@ -264,12 +264,38 @@
   }
 }
 
+@media screen and (max-width: 1440px){
+  .art{
+    .box{
+      width: 900px;
+      .title{
+        .animation_header{
+          font-size: 4rem;
+      }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .art{
+    .box{
+      width: 700px;
+      .title{
+        .animation_header{
+          font-size: 3.9rem;
+      }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px){
   .art{
     .box{
       .title{
         .animation_header{
-          font-size: 5rem;
+          font-size: 3.8rem;
       }
       }
     }
@@ -282,7 +308,7 @@
     .box{
       .title{
         .animation_header{
-          font-size: 4.5rem;
+          font-size: 3.7rem;
       }
       }
     }
