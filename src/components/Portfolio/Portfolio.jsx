@@ -6,49 +6,89 @@ import img3 from "../../assets/portfolio/3.png";
 import img4 from "../../assets/portfolio/4.png";
 import img5 from "../../assets/portfolio/5.png";
 import img6 from "../../assets/portfolio/6.png";
+import img7 from "../../assets/portfolio/7.png";
+import img8 from "../../assets/portfolio/8.png";
+import img9 from "../../assets/portfolio/9.png";
+import img10 from "../../assets/portfolio/10.png";
+import img11 from "../../assets/portfolio/11.png";
 
 const data = [
   {
     id: 1,
     image: img1,
-    title: "First",
+    title: "Mogo Ready Template",
     github: "https://github.com",
     demo: "https://www.instagram.com/p/B6Wa_VqDFcA/",
   },
   {
     id: 2,
     image: img2,
-    title: "First",
+    title: "React Calculator",
     github: "https://github.com",
     demo: "https://www.instagram.com/p/B6Wa_VqDFcA/",
   },
   {
     id: 3,
     image: img3,
-    title: "First",
+    title: "Sweet Portfolio",
     github: "https://github.com",
     demo: "https://www.instagram.com/p/B6Wa_VqDFcA/",
   },
   {
     id: 4,
     image: img4,
-    title: "First",
+    title: "Bootstrap in React",
     github: "https://github.com",
     demo: "https://www.instagram.com/p/B6Wa_VqDFcA/",
   },
   {
     id: 5,
     image: img5,
-    title: "First",
+    title: "A Phaser Game",
     github: "https://github.com",
-    demo: "https://www.instagram.com/p/B6Wa_VqDFcA/",
+    demo: "https://elinahulbert.github.io/seabattle/",
   },
   {
     id: 6,
     image: img6,
-    title: "First",
+    title: "Holiday Counter",
     github: "https://github.com",
     demo: "https://www.instagram.com/p/B6Wa_VqDFcA/",
+  },
+  {
+    id: 7,
+    image: img7,
+    title: "Quiz",
+    github: "https://github.com",
+    demo: "https://www.instagram.com/p/B6Wa_VqDFcA/",
+  },
+  {
+    id: 8,
+    image: img8,
+    title: "Bootstrap in Vanilla JS",
+    github: "https://github.com",
+    demo: "https://brilliant-sorbet-c8f5e5.netlify.app",
+  },
+  {
+    id: 9,
+    image: img9,
+    title: "Responsive Web",
+    github: "https://github.com",
+    demo: "https://unique-cobbler-e87ff0.netlify.app/",
+  },
+  {
+    id: 10,
+    image: img10,
+    title: "MERN Sneakers",
+    github: "https://github.com",
+    demo: "https://www.instagram.com/p/B6Wa_VqDFcA/",
+  },
+  {
+    id: 11,
+    image: img11,
+    title: "Vanilla JS",
+    github: "https://github.com",
+    demo: "https://kaleidoscopic-ganache-2f7410.netlify.app/",
   },
 ];
 
