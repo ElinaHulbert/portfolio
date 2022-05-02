@@ -53,7 +53,7 @@ const data = [
     image: img6,
     title: "Holiday Counter",
     github: "https://github.com",
-    demo: "https://www.instagram.com/p/B6Wa_VqDFcA/",
+    demo: "https://rococo-starlight-64da6d.netlify.app/",
   },
   {
     id: 7,
