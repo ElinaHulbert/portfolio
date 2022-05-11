@@ -11,6 +11,7 @@ import img8 from "../../assets/portfolio/8.png";
 import img9 from "../../assets/portfolio/9.png";
 import img10 from "../../assets/portfolio/10.png";
 import img11 from "../../assets/portfolio/11.png";
+import img12 from "../../assets/portfolio/12.png";
 
 const data = [
   {
@@ -106,6 +107,14 @@ const data = [
     github: "https://github.com",
     demo: "https://kaleidoscopic-ganache-2f7410.netlify.app/",
     description: "Several vanilla JS projects as a part of JavaScript30.",
+  },
+  {
+    id: 12,
+    image: img12,
+    title: "Swedish Radio API",
+    github: "https://github.com",
+    demo: "https://elinahulbert.github.io/Swedish-radio-API/",
+    description: "A Vanilla JS App based on Swedish Radio API.",
   },
 ];
 
