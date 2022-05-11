@@ -25,14 +25,21 @@
 }
 
 .portfolio__item h3{
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 .4rem;
     color: var(--color-light)
+}
+
+.description{
+    color: var(--color-primary);
+    margin: 0  0 1.6rem;
+    min-height: 82px;
 }
 
 .portfolio__item-cta{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+   vertical-align: bottom;
 }
 
 /* Media Queries (Medium devices)*/

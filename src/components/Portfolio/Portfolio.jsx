@@ -19,6 +19,8 @@ const data = [
     title: "Mogo Ready Template",
     github: "https://github.com",
     demo: "https://elinahulbert.github.io/template-layout/",
+    description:
+      "A company portfolio written with HTML, CSS and jQuery using a ready psd template.",
   },
   {
     id: 2,
@@ -26,6 +28,7 @@ const data = [
     title: "React Calculator",
     github: "https://github.com",
     demo: "https://react-app-calc20.herokuapp.com/",
+    description: "Minimalistic React Calculator with Clear function.",
   },
   {
     id: 3,
@@ -33,6 +36,7 @@ const data = [
     title: "Sweet Portfolio",
     github: "https://github.com",
     demo: "https://elinahulbert.github.io/Lyudmila-Yakovleva/index.html",
+    description: "The very first project in vanilla JS. A portfolio for baker.",
   },
   {
     id: 4,
@@ -40,13 +44,16 @@ const data = [
     title: "Bootstrap in React",
     github: "https://github.com",
     demo: "https://react-app-bootstrap2738.herokuapp.com/",
+    description: "A simple Sign In page made with Bootstrap.",
   },
   {
     id: 5,
     image: img5,
-    title: "A Phaser Game",
+    title: "Seabattle",
     github: "https://github.com",
     demo: "https://elinahulbert.github.io/seabattle/",
+    description:
+      "A classic Seabattle/Battleship game for one person made in Phaser.",
   },
   {
     id: 6,
@@ -54,6 +61,8 @@ const data = [
     title: "Holiday Counter",
     github: "https://github.com",
     demo: "https://rococo-starlight-64da6d.netlify.app/",
+    description:
+      "The first team project to keep track on favourite sweet holidays using localstorage.",
   },
   {
     id: 7,
@@ -61,6 +70,8 @@ const data = [
     title: "Quiz",
     github: "https://github.com",
     demo: "https://elinahulbert.github.io/Twinder/",
+    description:
+      "The second team project with login & register page using Firebase.",
   },
   {
     id: 8,
@@ -68,6 +79,7 @@ const data = [
     title: "Bootstrap in Vanilla JS",
     github: "https://github.com",
     demo: "https://brilliant-sorbet-c8f5e5.netlify.app",
+    description: "Slider made with Bootstrap and vanilla JS.",
   },
   {
     id: 9,
@@ -75,13 +87,17 @@ const data = [
     title: "Responsive Web",
     github: "https://github.com",
     demo: "https://unique-cobbler-e87ff0.netlify.app/",
+    description:
+      "A responsive website with media queries adjusted to printing.",
   },
   {
     id: 10,
     image: img10,
     title: "MERN Sneakers",
     github: "https://github.com",
-    demo: "https://www.instagram.com/p/B6Wa_VqDFcA/",
+    demo: "https://unique-bombolone-cb639e.netlify.app/",
+    description:
+      "A sneakers MERN web with favourite feature deployed as a monorepo in Heroku and Netlify.",
   },
   {
     id: 11,
@@ -89,6 +105,7 @@ const data = [
     title: "Vanilla JS",
     github: "https://github.com",
     demo: "https://kaleidoscopic-ganache-2f7410.netlify.app/",
+    description: "Several vanilla JS projects as a part of JavaScript30.",
   },
 ];
 
@@ -99,7 +116,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github, demo, description }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -107,6 +124,7 @@ const Portfolio = () => {
               </div>
 
               <h3>{title}</h3>
+              <p className="description">{description}</p>
               <div className="portfolio__item-cta">
                 <a href={github} className="btn" target="_blank">
                   GitHub

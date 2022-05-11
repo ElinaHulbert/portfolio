@@ -59,13 +59,13 @@ const About = () => {
           </div>
 
           <p>
-            Hello! I am a curious frontend developer originally from Azerbaijan.
-            Now I study at Hyper Island and enjoy my student life. During my
-            education at Hyper Island I got an opportunity to mentor other
-            students and volunteered at Open Day, Application Task Test-drive
-            and Application Task Review. Before coding, I have been doing art
-            and illustration and were highly interested in learning different
-            languages.
+            Hi there! I am a curious Frontend Developer student from Hyper
+            Island. During my education I have had an opportunity to mentor
+            other students and actively volunteered at school. Before coding, I
+            studied art, illustration and architecture. Currently I am searching
+            internship (LIA-praktik) ideally with a mentor, in a company I am
+            sharing the same values with. Don't hesitate to reach out if you'd
+            love an organized, driven and caring person in your team! &#60;3
           </p>
         </div>
       </div>

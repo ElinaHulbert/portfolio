@@ -1,7 +1,7 @@
 .container.testimonials__container{
     width: 40%;
     padding-bottom: 4rem;
-    height: 90vh;
+    height: 96vh;
     
 }
 
@@ -20,7 +20,7 @@
    aspect-ratio: 1/1;
    overflow: hidden;
    border-radius: 50%;
-   margin: 0 auto 1rem;
+   margin: 1.5rem auto 1rem;
    /* border: .4rem solid var(--color-primary-variant); */
 }
 
@@ -32,7 +32,6 @@ h5.client__name{
 .testimonial{
     background: var(--color-bg-variant);
     text-align: center;
-    padding: 2rem;
     border-radius: 2rem;
     user-select: none;
 }
