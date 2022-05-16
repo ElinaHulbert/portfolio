@@ -1,7 +1,8 @@
+
 .container.testimonials__container{
     width: 40%;
     padding-bottom: 4rem;
-    height: 96vh;
+    height: 60vh;
     
 }
 
@@ -58,7 +59,7 @@ h5.client__name{
 @media screen and (max-width: 1440px){
     .container.testimonials__container{
        width: 60%;
-       height: 70vh;
+       height: 63vh;
     }
 }
 
@@ -67,14 +68,20 @@ h5.client__name{
 @media screen and (max-width: 1024px){
     .container.testimonials__container{
        width: 60%;
-       height: 70vh;
+       height: 68vh;
+    }
+}
+@media screen and (max-width: 900px){
+    .container.testimonials__container{
+       width: 60%;
+       height: 73vh;
     }
 }
 
 @media screen and (max-width: 768px){
     .container.testimonials__container{
        width: 60%;
-       height: 90vh;
+       height: 75vh;
     }
 }
 
@@ -82,7 +89,7 @@ h5.client__name{
 @media screen and (max-width: 600px){
     .container.testimonials__container{
         width: var(--container-width-sm);
-        height: 120vh;
+        height: 77vh;
     }
 
     .client__review{
@@ -93,13 +100,13 @@ h5.client__name{
 @media screen and (max-width: 425px){
     .container.testimonials__container{
        width: 60%;
-       height: 190vh;
+       height: 96vh;
     }
 }
 
 @media screen and (max-width: 375px){
     .container.testimonials__container{
        width: 60%;
-       height: 220vh;
+       height: 110vh;
     }
 }
