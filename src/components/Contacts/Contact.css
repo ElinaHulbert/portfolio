@@ -52,9 +52,13 @@
     color: var(--color-white)
 }
 
-input::placeholder, textarea{
+input::placeholder, textarea::placeholder {
     font-family: "Lato";
-    color: var(--color-primary-variant)
+    color: var(--color-bg-variant)
+}
+
+.contact_inputs{
+    color: var(--color-bg-variant)
 }
 
 /* Form */
