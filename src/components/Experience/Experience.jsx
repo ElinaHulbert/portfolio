@@ -101,10 +101,10 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        <div className="experience__frontend">
+        {/* <div className="experience__frontend">
           <h3>Art</h3>
           <div className="experience__content">
-            {/* #1 */}
+             
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
@@ -114,7 +114,7 @@ const Experience = () => {
                 </small>
               </div>
             </article>
-            {/* #2 */}
+            
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
@@ -124,7 +124,7 @@ const Experience = () => {
                 </small>
               </div>
             </article>
-            {/* #3 */}
+         
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
@@ -134,7 +134,7 @@ const Experience = () => {
                 </small>
               </div>
             </article>
-            {/* #4 */}
+         
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
@@ -142,7 +142,7 @@ const Experience = () => {
                 <small className="text-light">Illustration for kids</small>
               </div>
             </article>
-            {/* #5 */}
+           
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
@@ -150,7 +150,7 @@ const Experience = () => {
                 <small className="text-light">Both vector and scalar</small>
               </div>
             </article>
-            {/* #6 */}
+            
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
@@ -160,7 +160,7 @@ const Experience = () => {
                 </small>
               </div>
             </article>
-            {/* #7 */}
+            
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
@@ -168,7 +168,7 @@ const Experience = () => {
                 <small className="text-light">Watercolors, gouache, oils</small>
               </div>
             </article>
-            {/* #8 */}
+           
             <article className="experience__details">
               <GoPrimitiveDot size={13} className="experience__details-icon" />
               <div>
@@ -179,7 +179,7 @@ const Experience = () => {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="container__second__experience">

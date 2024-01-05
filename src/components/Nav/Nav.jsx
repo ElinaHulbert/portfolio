@@ -34,8 +34,8 @@ const Nav = () => {
       </a>
       <a
         href="#portfolio"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
       >
         <RiSuitcaseLine />
       </a>

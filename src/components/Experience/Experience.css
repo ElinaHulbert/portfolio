@@ -14,7 +14,7 @@
 }
 .container__second__experience>div{
     background: var(--color-bg-variant);
-    padding: 2.4rem 3rem;
+    padding: 1.8rem 2.2rem;
     margin-bottom: 2.4rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -25,7 +25,7 @@
 
 .experience__container>div{
     background: var(--color-bg-variant);
-    padding: 2.4rem 3rem;
+    padding: 1.8rem 2.2rem;
     margin-bottom: 2.4rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -42,7 +42,7 @@
 .experience__container>div h3, .container__second__experience>div h3{
     text-align: center;
     margin-bottom: 2rem;
-    
+    font-size: 2rem;
     color: var(--color-primary)
 }
 
@@ -60,7 +60,7 @@
     display: flex;
     gap: 1rem;
     width: 400px;
-    padding-bottom: 1.5rem;
+    padding-bottom: .8rem;
 }
 
 .experience__details-icon{
