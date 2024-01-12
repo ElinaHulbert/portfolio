@@ -15,7 +15,7 @@ import img12 from "../../assets/portfolio/12.png";
 import img13 from "../../assets/portfolio/13.png";
 import img14 from "../../assets/portfolio/14.png";
 import img15 from "../../assets/portfolio/15.png";
-// import img16 from "../../assets/portfolio/16.png";
+import img16 from "../../assets/portfolio/16.png";
 
 const data = [
   {
@@ -24,16 +24,16 @@ const data = [
     title: "Insurance comparison service development",
     link: "https://happens.se/",
     description:
-      "Collaborated with a dynamic development team as a Frontend Intern to develop a responsive and visually engaging website",
+      "Collaborated with a dynamic development team as a Frontend Intern to develop a responsive and visually engaging website.",
   },
   {
     id: 16,
-    image: img15,
+    image: img16,
     title: "Pizza Shop",
-    github: "https://github.com/ElinaHulbert/template-layout",
-    demo: "https://elinahulbert.github.io/template-layout/",
+    github: "https://github.com/ElinaHulbert/pizza-shop",
+    // demo: "https://elinahulbert.github.io/template-layout/",
     description:
-      "Pizza shop, made with Redux Toolkit, TypeScript, React Router, React Content Loader, React Pagination, Lodash, SCSS.",
+      "Pizza shop, made with Redux Toolkit, TypeScript, React Router, React Content Loader, React Pagination, Lodash, SCSS. Under redesign.",
   },
   {
     id: 1,
