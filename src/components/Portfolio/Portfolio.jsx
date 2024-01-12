@@ -14,8 +14,27 @@ import img11 from "../../assets/portfolio/11.png";
 import img12 from "../../assets/portfolio/12.png";
 import img13 from "../../assets/portfolio/13.png";
 import img14 from "../../assets/portfolio/14.png";
+import img15 from "../../assets/portfolio/15.png";
+// import img16 from "../../assets/portfolio/16.png";
 
 const data = [
+  {
+    id: 15,
+    image: img15,
+    title: "Insurance comparison service development",
+    link: "https://happens.se/",
+    description:
+      "Collaborated with a dynamic development team as a Frontend Intern to develop a responsive and visually engaging website",
+  },
+  {
+    id: 16,
+    image: img15,
+    title: "Pizza Shop",
+    github: "https://github.com/ElinaHulbert/template-layout",
+    demo: "https://elinahulbert.github.io/template-layout/",
+    description:
+      "Pizza shop, made with Redux Toolkit, TypeScript, React Router, React Content Loader, React Pagination, Lodash, SCSS.",
+  },
   {
     id: 1,
     image: img1,
@@ -25,14 +44,14 @@ const data = [
     description:
       "A company portfolio written with HTML, CSS and jQuery using a ready psd template.",
   },
-  // {
-  //   id: 2,
-  //   image: img2,
-  //   title: "React Calculator",
-  //   github: "https://github.com/ElinaHulbert/calculatorReact",
-  //   demo: "https://react-app-calc20.herokuapp.com/",
-  //   description: "Minimalistic React Calculator with Clear function.",
-  // },
+  {
+    id: 2,
+    image: img2,
+    title: "React Calculator",
+    github: "https://github.com/ElinaHulbert/calculatorReact",
+    demo: "https://react-app-calc20.herokuapp.com/",
+    description: "Minimalistic React Calculator with Clear function.",
+  },
   {
     id: 3,
     image: img3,
@@ -102,14 +121,14 @@ const data = [
     description:
       "A sneakers MERN web with favourite feature deployed as a monorepo in Heroku and Netlify.",
   },
-  // {
-  //   id: 11,
-  //   image: img11,
-  //   title: "Vanilla JS",
-  //   github: "https://github.com/ElinaHulbert/Vanilla-JS-projects",
-  //   demo: "https://kaleidoscopic-ganache-2f7410.netlify.app/",
-  //   description: "Several vanilla JS projects as a part of JavaScript30.",
-  // },
+  {
+    id: 11,
+    image: img11,
+    title: "Vanilla JS",
+    github: "https://github.com/ElinaHulbert/Vanilla-JS-projects",
+    demo: "https://kaleidoscopic-ganache-2f7410.netlify.app/",
+    description: "Several vanilla JS projects as a part of JavaScript30.",
+  },
   {
     id: 12,
     image: img12,
@@ -118,15 +137,15 @@ const data = [
     demo: "https://elinahulbert.github.io/Swedish-radio-API/",
     description: "A Vanilla JS App based on Swedish Radio API.",
   },
-  // {
-  //   id: 13,
-  //   image: img13,
-  //   title: "MERN Experience",
-  //   github: "https://github.com/ElinaHulbert/ecommerce-team-project",
-  //   demo: "https://benciantar-happening.netlify.app/",
-  //   description:
-  //     "A team MERN project deployed as a Monorepo on Heroku and Netlify.",
-  // },
+  {
+    id: 13,
+    image: img13,
+    title: "MERN Experience",
+    github: "https://github.com/ElinaHulbert/ecommerce-team-project",
+    demo: "https://benciantar-happening.netlify.app/",
+    description:
+      "A MERN project made in a team, deployed as a Monorepo on Heroku and Netlify.",
+  },
   {
     id: 14,
     image: img14,
@@ -144,7 +163,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo, description }) => {
+        {data.map(({ id, image, title, github, demo, description, link }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -154,12 +173,23 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <p className="description">{description}</p>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">
-                  GitHub
-                </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
+                {github && (
+                  <a href={github} className="btn" target="_blank">
+                    GitHub
+                  </a>
+                )}
+
+                {demo && (
+                  <a href={demo} className="btn btn-primary" target="_blank">
+                    Live Demo
+                  </a>
+                )}
+
+                {link && (
+                  <a href={link} className="btn btn-primary" target="_blank">
+                    Link
+                  </a>
+                )}
               </div>
             </article>
           );
