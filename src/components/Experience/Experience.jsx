@@ -44,7 +44,6 @@ const Experience = () => {
         { name: "Pair-Programming & Mob-Programming" },
       ],
     },
-    // Add more sections as needed
   ];
 
   const softwareTools = [
