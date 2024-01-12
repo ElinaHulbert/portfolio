@@ -11,6 +11,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
+    max-width: 880px;
 }
 .container__second__experience>div{
     background: var(--color-bg-variant);
@@ -19,7 +20,8 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    width: 45%;
+    width: 48%;
+    
 }
 
 
@@ -31,6 +33,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
     margin-left: 0;
+    max-width: 880px;
 }
 
 .experience__container>div:hover, .container__second__experience>div:hover{

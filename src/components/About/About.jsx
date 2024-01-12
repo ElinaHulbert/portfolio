@@ -59,13 +59,19 @@ const About = () => {
           </div>
 
           <p>
-            Hi there! I am a curious Frontend Developer student from Hyper
-            Island. During my education I have had an opportunity to mentor
-            other students and actively volunteered at school. Before coding, I
-            studied art, illustration and architecture. Currently I am searching
-            internship (LIA-praktik) ideally with a mentor, in a company I am
-            sharing the same values with. Don't hesitate to reach out if you'd
-            love an organized, driven and caring person in your team! &#60;3
+            Hi! I’m Elina, a frontend developer and an artist based in
+            Stockholm. I’m interested in organizing, brainstorming, structuring
+            and presenting.
+            <br />
+            <br />
+            My future goals are to be a structure guru, lead organizations from
+            the idea being born to goals being achieved and transform. My ideal
+            path will be a frontend + backend, preferably Java, and a sparkle of
+            design!✨
+            <br />
+            <br />
+            Send me a hello on LinkedIn, Instagram or anywhere else. I spread
+            order, patience and cookies🍪.
           </p>
         </div>
       </div>
