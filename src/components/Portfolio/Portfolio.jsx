@@ -21,7 +21,7 @@ const data = [
   {
     id: 15,
     image: img15,
-    title: "Insurance comparison service development",
+    title: "Happens: Insurance comparison service development",
     link: "https://happens.se/",
     description:
       "Collaborated with a dynamic development team as a Frontend Intern to develop a responsive and visually engaging website.",
